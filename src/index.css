@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+body {
+    background-image: url(./assets/background-pattern-mobile.svg);
+    background-repeat: repeat-x;
+    background-color: #F8EEFF;
+}
+
+@media (min-width: 64em) {
+    body {
+        background-image: url(./assets//background-pattern-desktop.svg);
+        background-repeat: repeat-x;
+    }
+}
